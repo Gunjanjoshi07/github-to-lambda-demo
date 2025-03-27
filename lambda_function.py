@@ -1,7 +1,7 @@
 import pandas as pd
 
 def lambda_handler(event, context):
-    d = {'col1': [1,2], 'col2': [3,4]}
+    d = {'col1': [7,8], 'col2': [9,10]}
     df = pd.DataFrame(data=d)
     print(df)
-    print('First change')
+    print('Second change')
